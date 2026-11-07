@@ -79,18 +79,10 @@ Rekrut Lokal mengambil arah sebaliknya:
 
 **Lisensi tahunan per instalasi. Pengguna lokal tidak dibatasi, tanpa biaya per akun.**
 
-| Paket                 | Cocok untuk                            | Harga                    |
-| --------------------- | -------------------------------------- | ------------------------ |
-| **Instalasi Tunggal** | Satu kantor, satu instalasi            | **Rp 2.500.000 / tahun** |
-| **Biro Rekrutmen**    | Sampai 3 instalasi (kantor dan laptop) | **Rp 5.500.000 / tahun** |
-
 - Setiap instalasi bisa dipakai seluruh tim: Admin, Recruiter, dan Viewer tanpa batas.
 - Termasuk pembaruan versi dan dukungan WhatsApp/email selama masa lisensi.
-- **Perpanjangan 50%** dari harga paket.
 - **Coba gratis 7 hari** — tanpa kartu kredit, tanpa komitmen.
-- Kebutuhan lebih dari 3 instalasi atau dukungan khusus: minta penawaran.
-
-Harga dapat berubah; penawaran yang berlaku dikonfirmasi saat pembelian.
+- Harga menyesuaikan jumlah instalasi dan kebutuhan dukungan.
 
 **Cara membeli atau minta demo:**
 
