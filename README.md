@@ -25,13 +25,13 @@ keluar dari kantor dan biaya naik setiap kali tim bertambah.
 
 Rekrut Lokal mengambil arah sebaliknya:
 
-| | Rekrut Lokal | ATS cloud biasa |
-| --- | --- | --- |
-| **Data kandidat** | Tetap di komputer Anda | Tersimpan di server vendor |
-| **Biaya** | Lisensi tahunan per instalasi | Langganan per pengguna |
-| **Internet** | Hanya saat setup dan bila memakai AI | Wajib selalu tersambung |
-| **Anggaran AI** | Kunci Gemini pribadi, opsional | Biasanya dibundel dan dibatasi |
-| **Backup** | Terenkripsi `.age`, Anda pegang kata sandinya | Mengikuti kebijakan vendor |
+|                   | Rekrut Lokal                                  | ATS cloud biasa                |
+| ----------------- | --------------------------------------------- | ------------------------------ |
+| **Data kandidat** | Tetap di komputer Anda                        | Tersimpan di server vendor     |
+| **Biaya**         | Lisensi tahunan per instalasi                 | Langganan per pengguna         |
+| **Internet**      | Hanya saat setup dan bila memakai AI          | Wajib selalu tersambung        |
+| **Anggaran AI**   | Kunci Gemini pribadi, opsional                | Biasanya dibundel dan dibatasi |
+| **Backup**        | Terenkripsi `.age`, Anda pegang kata sandinya | Mengikuti kebijakan vendor     |
 
 ## Fitur
 
@@ -76,15 +76,22 @@ Rekrut Lokal mengambil arah sebaliknya:
 
 ## Harga
 
-**Lisensi tahunan per instalasi, jumlah pengguna lokal tidak dibatasi.**
+**Lisensi tahunan per instalasi. Pengguna lokal tidak dibatasi, tanpa biaya per akun.**
 
-- Termasuk pembaruan versi selama masa lisensi.
-- Tanpa biaya per pengguna, tanpa biaya cloud.
+| Paket                 | Cocok untuk                            | Harga                    |
+| --------------------- | -------------------------------------- | ------------------------ |
+| **Instalasi Tunggal** | Satu kantor, satu instalasi            | **Rp 2.500.000 / tahun** |
+| **Biro Rekrutmen**    | Sampai 3 instalasi (kantor dan laptop) | **Rp 5.500.000 / tahun** |
+
+- Setiap instalasi bisa dipakai seluruh tim: Admin, Recruiter, dan Viewer tanpa batas.
+- Termasuk pembaruan versi dan dukungan WhatsApp/email selama masa lisensi.
+- **Perpanjangan 50%** dari harga paket.
 - **Coba gratis 7 hari** — tanpa kartu kredit, tanpa komitmen.
+- Kebutuhan lebih dari 3 instalasi atau dukungan khusus: minta penawaran.
 
-Harga menyesuaikan ukuran tim dan kebutuhan dukungan. Hubungi pemilik aplikasi melalui
-[profil GitHub](https://github.com/lihenzar-wq) untuk penawaran, demo, atau migrasi dari
-spreadsheet.
+Harga dapat berubah; penawaran yang berlaku dikonfirmasi saat pembelian. Hubungi pemilik
+aplikasi melalui [profil GitHub](https://github.com/lihenzar-wq) untuk demo, penawaran
+resmi, atau migrasi dari spreadsheet.
 
 ## Coba gratis 7 hari
 
@@ -117,11 +124,11 @@ perlu memasang Node manual. Setup pertama membutuhkan internet untuk memasang ko
 
 Versi memakai format `vX.Y.Z`. Setiap rilis menerbitkan tiga berkas:
 
-| Berkas | Isi |
-| --- | --- |
-| `RekrutLokal-Setup-vX.Y.Z.exe` | Installer Windows, sudah termasuk Node.js |
-| `RekrutLokal-Client-vX.Y.Z.zip` | Paket aplikasi untuk pemasangan manual |
-| `RekrutLokal-Client-vX.Y.Z-full.zip` | Paket aplikasi plus Node.js portable |
+| Berkas                               | Isi                                       |
+| ------------------------------------ | ----------------------------------------- |
+| `RekrutLokal-Setup-vX.Y.Z.exe`       | Installer Windows, sudah termasuk Node.js |
+| `RekrutLokal-Client-vX.Y.Z.zip`      | Paket aplikasi untuk pemasangan manual    |
+| `RekrutLokal-Client-vX.Y.Z-full.zip` | Paket aplikasi plus Node.js portable      |
 
 Cara memperbarui:
 
