@@ -12,7 +12,7 @@ Data tetap milik Anda. Tidak ada langganan per pengguna. Tetap jalan tanpa inter
 [![Unduh](https://img.shields.io/badge/Unduh-Installer_Windows-bb371e?style=for-the-badge)](../../releases/latest)
 [![Trial](https://img.shields.io/badge/Coba_gratis-7_hari-191919?style=for-the-badge)](#coba-gratis-7-hari)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_dengan_kami-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285111870462?text=Halo%2C%20saya%20ingin%20tanya%20Rekrut%20Lokal)
-[![Versi](https://img.shields.io/badge/Versi-0.2.3-f5f5f4?style=for-the-badge&labelColor=191919)](#pembaruan-dan-rilis)
+[![Versi](https://img.shields.io/badge/Versi-0.2.4-f5f5f4?style=for-the-badge&labelColor=191919)](#pembaruan-dan-rilis)
 
 </div>
 
@@ -109,7 +109,7 @@ sejak kunci diterbitkan. Kunci ini bisa dipakai di komputer mana pun dan masih b
 diaktifkan sampai **7 November 2027**. Setelah trial habis, aplikasi kembali ke halaman
 Aktivasi.
 
-> Gunakan versi **0.2.3 atau lebih baru**. Versi lama menghitung masa trial dari tanggal
+> Gunakan versi **0.2.4 atau lebih baru**. Versi lama menghitung masa trial dari tanggal
 > kunci diterbitkan.
 
 ## Unduh dan pasang
