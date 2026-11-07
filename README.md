@@ -1,130 +1,117 @@
+<div align="center">
+
+<img src="assets/hero.svg" alt="Rekrut Lokal - aplikasi rekrutmen lokal untuk Windows" width="100%" />
+
 # Rekrut Lokal
 
-Aplikasi rekrutmen (ATS) untuk tim kecil yang berjalan di komputer Anda sendiri.
-Kelola lowongan, kandidat, penyaringan CV, wawancara, penawaran, dan laporan dalam
-satu aplikasi web lokal. Tidak perlu server cloud, langganan per pengguna, atau
-koneksi internet untuk fitur utamanya.
+**ATS lokal untuk tim rekrutmen Indonesia.** Kelola lowongan, kandidat, penyaringan CV,
+wawancara, penawaran, dan laporan dari satu aplikasi di komputer Anda sendiri.
 
-Repositori ini hanya berisi berkas rilis: installer Windows dan paket Client.
-Kode sumber dan master key tidak disimpan di sini.
+Data tetap milik Anda. Tidak ada langganan per pengguna. Tetap jalan tanpa internet.
+
+[![Unduh](https://img.shields.io/badge/Unduh-Installer_Windows-bb371e?style=for-the-badge)](../../releases/latest)
+[![Trial](https://img.shields.io/badge/Coba_gratis-7_hari-191919?style=for-the-badge)](#coba-gratis-7-hari)
+[![Versi](https://img.shields.io/badge/Versi-0.2.3-f5f5f4?style=for-the-badge&labelColor=191919)](#pembaruan-dan-rilis)
+
+</div>
+
+---
 
 ## Kenapa Rekrut Lokal
 
-- **Data tetap di komputer Anda.** Database, CV, dan riwayat rekrutmen tersimpan di
-  folder aplikasi, bukan di server pihak lain.
-- **Tanpa biaya per pengguna.** Satu instalasi dipakai bersama tim lewat akun
-  Admin, Recruiter, dan Viewer.
-- **Tetap jalan tanpa internet.** Fitur inti bekerja offline; internet hanya
-  dibutuhkan saat setup pertama dan bila memakai AI.
-- **AI opsional dan terkendali.** Setiap pengguna memakai kunci Gemini pribadi.
-  Admin menentukan apakah cloud AI boleh dipakai, dan tanpa AI aplikasi tetap
-  berjalan penuh.
-- **Backup terenkripsi.** Backup otomatis dan manual berformat `.age`, dengan kata
-  sandi yang hanya Anda pegang.
-- **Bisa dipakai di jaringan kantor.** Mode LAN membuka aplikasi untuk komputer
-  lain di jaringan privat yang tepercaya.
-- **Lisensi offline.** Kunci lisensi ditandatangani dan diverifikasi tanpa
-  menghubungi server lisensi.
+Kebanyakan ATS modern bagus, tetapi mahal, berbasis cloud, dan menagih per pengguna.
+Untuk perusahaan 10–200 karyawan dan biro rekrutmen kecil, itu berarti data kandidat
+keluar dari kantor dan biaya naik setiap kali tim bertambah.
+
+Rekrut Lokal mengambil arah sebaliknya:
+
+| | Rekrut Lokal | ATS cloud biasa |
+| --- | --- | --- |
+| **Data kandidat** | Tetap di komputer Anda | Tersimpan di server vendor |
+| **Biaya** | Lisensi tahunan per instalasi | Langganan per pengguna |
+| **Internet** | Hanya saat setup dan bila memakai AI | Wajib selalu tersambung |
+| **Anggaran AI** | Kunci Gemini pribadi, opsional | Biasanya dibundel dan dibatasi |
+| **Backup** | Terenkripsi `.age`, Anda pegang kata sandinya | Mengikuti kebijakan vendor |
 
 ## Fitur
 
-### Dasbor
+<div align="center">
+  <img src="assets/alur.svg" alt="Alur kerja Rekrut Lokal: unggah CV, saring berbukti, wawancara, penawaran, diterima" width="100%" />
+</div>
 
-Ringkasan pipeline, tindak lanjut yang jatuh tempo, notifikasi, dan pengingat
-backup dalam satu layar.
+### Dari lowongan sampai penawaran
 
-### Lowongan dan kriteria
+- **Lowongan dan kriteria** — simpan kriteria wajib dan nilai plus, lengkap dengan
+  requisisi, departemen, jumlah kebutuhan, gaji, dan anggaran.
+- **Pipeline per lowongan** — atur tahap sendiri, urutkan, dan pasang follow-up otomatis.
+- **Penyaringan berbukti** — cocokkan teks CV dengan kriteria dan tampilkan kutipan
+  buktinya. Hasil yang belum yakin ditandai untuk diperiksa manusia.
+- **Wawancara dan scorecard** — jadwal, undangan `.ics`, penilaian enam kompetensi,
+  dan panduan wawancara dari kriteria lowongan.
+- **Penawaran kerja** — susun, ajukan persetujuan Admin, kirim, lalu catat jawaban.
+- **Komunikasi** — catat WhatsApp/email dan tindak lanjut agar riwayat tidak hilang.
 
-Setiap lowongan menyimpan kriteria wajib dan nilai plus yang menjadi dasar
-penyaringan. Lowongan baru melewati requisisi dan persetujuan Admin, lengkap
-dengan departemen, jumlah kebutuhan, rentang gaji, dan anggaran.
+### Kandidat dan laporan
 
-### Pipeline per lowongan
+- **Talent pool lintas lowongan** — tag, catatan, consent, dan keputusan penyimpanan.
+- **Laporan** — time-to-hire, konversi antar tahap, efektivitas sumber kandidat, tren
+  bulanan, dan pemeriksaan konsistensi keputusan. Semua bisa diekspor ke CSV.
 
-Setiap lowongan punya alur tahapnya sendiri. Atur nama, urutan, dan jeda follow-up
-otomatis per tahap. Perpindahan tahap mengikuti aturan yang sah dan tercatat di
-riwayat lamaran.
+### Lokal, aman, dan terkendali
 
-### Unggah CV dan impor CSV
+- **Data di komputer sendiri** — database, CV, dan riwayat tersimpan di folder aplikasi.
+- **Backup terenkripsi** — otomatis dan manual, dengan kata sandi yang hanya Anda pegang.
+- **Peran Admin, Recruiter, Viewer** — akses berbeda, setiap perubahan penting masuk audit.
+- **Mode LAN** — pakai bersama tim di jaringan kantor tanpa server cloud.
+- **Citra, asisten AI opsional** — kunci Gemini pribadi tiap pengguna; tanpa AI aplikasi
+  tetap berjalan penuh.
+- **Lisensi offline** — diverifikasi tanpa menghubungi server lisensi.
 
-Masukkan kandidat lewat unggahan CV (PDF/gambar) atau daftar CSV ke lowongan yang
-sedang dibuka. OCR dan ekstraksi teks berjalan lokal.
+## Untuk siapa
 
-### Penyaringan dan bukti
+- **HRD perusahaan kecil dan menengah** yang ingin berhenti memakai spreadsheet.
+- **Biro rekrutmen dan konsultan HR** yang mengelola banyak lowongan untuk beberapa klien.
+- **Tim yang peduli privasi** dan ingin data kandidat tetap di kantor.
+- **Kantor dengan internet tidak stabil** yang tetap butuh sistem rekrutmen utuh.
 
-Penyaringan mencocokkan teks CV dengan kriteria lowongan, menampilkan skor,
-cakupan bukti, dan kutipan CV. Hasil yang belum yakin ditandai untuk diperiksa
-manual, bukan dipaksa menjadi angka.
+## Harga
 
-### Wawancara dan scorecard
+**Lisensi tahunan per instalasi, jumlah pengguna lokal tidak dibatasi.**
 
-Atur jadwal, unduh undangan `.ics`, lalu catat penilaian pewawancara pada enam
-kompetensi. Panduan wawancara bisa disusun dari kriteria lowongan.
+- Termasuk pembaruan versi selama masa lisensi.
+- Tanpa biaya per pengguna, tanpa biaya cloud.
+- **Coba gratis 7 hari** — tanpa kartu kredit, tanpa komitmen.
 
-### Penawaran kerja
-
-Susun penawaran, ajukan persetujuan Admin, kirim, lalu catat jawaban kandidat.
-Menerima penawaran otomatis memindahkan lamaran ke tahap Diterima.
-
-### Komunikasi dan tindak lanjut
-
-Catat pesan WhatsApp/email dan tindak lanjut agar riwayatnya tidak hilang.
-Pengingat muncul di lonceng notifikasi.
-
-### Kandidat, tag, dan talent pool
-
-Direktori lintas lowongan untuk menemukan kembali kandidat, mencatat consent,
-tag, catatan, dan keputusan talent pool.
-
-### Laporan dan ekspor
-
-Ukur time-to-hire, konversi antar tahap, efektivitas sumber kandidat, dan tren
-bulanan. Setiap tabel bisa diekspor ke CSV. Ada juga pemeriksaan konsistensi
-keputusan terhadap bukti penyaringan.
-
-### Citra, asisten AI
-
-Asisten opsional untuk menulis deskripsi lowongan, merangkum, dan menyiapkan bahan
-wawancara. Memakai kunci Gemini pribadi pengguna; Admin mengatur izin dan filter
-privasi.
-
-### Akun, keamanan, dan pengaturan
-
-Peran Admin, Recruiter, dan Viewer. Kata sandi dikelola sendiri, kunci AI pribadi
-tidak bisa dilihat Admin, dan setiap perubahan penting masuk audit. Pengaturan
-mencakup organisasi, pengguna, departemen, SMTP, retensi data, dan status sistem.
-
-## Persyaratan
-
-- Windows 10/11 64-bit.
-- Installer sudah membawa Node.js 22, jadi tidak perlu memasang Node manual.
-- Internet saat setup pertama untuk memasang komponen dan membangun aplikasi.
-- Ruang disk kosong yang cukup untuk aplikasi, database, CV, dan backup.
-
-## Pemasangan
-
-1. Buka tab **Releases** dan pilih versi terbaru (minimal **v0.2.3**).
-2. Unduh `RekrutLokal-Setup-vX.Y.Z.exe`.
-3. Jalankan installer, lalu buka **RekrutLokal** dari Start Menu.
-4. Pilih **Setup awal**, tunggu sampai selesai, lalu catat **Kode mesin**.
-5. Aktifkan lisensi, buat Admin pertama di halaman Setup, lalu tambahkan pengguna.
+Harga menyesuaikan ukuran tim dan kebutuhan dukungan. Hubungi pemilik aplikasi melalui
+[profil GitHub](https://github.com/lihenzar-wq) untuk penawaran, demo, atau migrasi dari
+spreadsheet.
 
 ## Coba gratis 7 hari
 
-Belum punya lisensi? Setelah setup, buka halaman **Aktivasi** dan tempel kunci trial
-universal ini:
+Setelah setup, buka halaman **Aktivasi** dan tempel kunci trial universal ini:
 
 ```
 RL1.eyJ2IjoxLCJpZCI6ImxpY180ZjYzYTU0OWFhN2FkNzk4IiwibGljZW5zZWUiOiJUcmlhbCBVbml2ZXJzYWwiLCJtYWNoaW5lIjoiKiIsInBsYW4iOiJ0cmlhbCIsImlzc3VlZEF0IjoiMjAyNi0xMS0wN1QwNTowMTo0MS40NDRaIiwiZXhwaXJlc0F0IjoiMjAyNy0xMS0wN1QwNTowMTo0MS40NDRaIiwidHJpYWxEYXlzIjo3LCJub3RlIjoiVHJpYWwgdW5pdmVyc2FsIDcgaGFyaSBzZWphayBha3RpdmFzaSJ9.Il2Vdoq8vmwr_YqKFRrPVvJSzlVhSaZkcRXtvSpeTIh9SD3oaPVLgeukuDSG45vEYSJx9kvFkMUKkGYWuBa7Bg
 ```
 
-Masa trial **7 hari dihitung sejak kunci pertama kali diaktifkan** di komputer itu,
-bukan sejak kunci diterbitkan. Kunci ini bisa dipakai di komputer mana pun dan masih
-bisa diaktifkan sampai **7 November 2027**. Setelah trial habis, aplikasi kembali ke
-halaman Aktivasi; hubungi pemilik aplikasi untuk kunci baru.
+Masa trial **7 hari dihitung sejak kunci pertama kali diaktifkan** di komputer itu, bukan
+sejak kunci diterbitkan. Kunci ini bisa dipakai di komputer mana pun dan masih bisa
+diaktifkan sampai **7 November 2027**. Setelah trial habis, aplikasi kembali ke halaman
+Aktivasi.
 
-Gunakan versi **0.2.3 atau lebih baru**. Versi lama menghitung masa trial dari
-tanggal kunci diterbitkan.
+> Gunakan versi **0.2.3 atau lebih baru**. Versi lama menghitung masa trial dari tanggal
+> kunci diterbitkan.
+
+## Unduh dan pasang
+
+1. Buka tab **[Releases](../../releases/latest)** dan pilih versi terbaru.
+2. Unduh `RekrutLokal-Setup-vX.Y.Z.exe`.
+3. Jalankan installer, lalu buka **RekrutLokal** dari Start Menu.
+4. Pilih **Setup awal**, tunggu sampai selesai, lalu catat **Kode mesin**.
+5. Aktifkan lisensi, buat Admin pertama, lalu tambahkan pengguna lain.
+
+**Persyaratan:** Windows 10/11 64-bit. Installer sudah membawa Node.js 22, jadi tidak
+perlu memasang Node manual. Setup pertama membutuhkan internet untuk memasang komponen.
 
 ## Pembaruan dan rilis
 
@@ -144,28 +131,51 @@ Cara memperbarui:
    dependensi, lalu membangun ulang aplikasi.
 4. Setelah selesai, pilih **Jalankan Aplikasi**.
 
-Yang selalu dipertahankan saat update: `.data` (database, CV, lisensi, pengaturan),
-`.env.local`, dan folder `runtime`. Bila versi terpasang sudah sama dengan rilis
-terbaru, updater berhenti tanpa mengubah berkas. Tidak perlu akun atau token GitHub.
+Yang selalu dipertahankan: `.data` (database, CV, lisensi, pengaturan), `.env.local`, dan
+folder `runtime`. Bila versi terpasang sudah sama, updater berhenti tanpa mengubah berkas.
+Tidak perlu akun atau token GitHub.
 
-Jika update otomatis gagal, unduh installer versi terbaru dan pasang di folder yang
-sama. **Jangan menghapus `.data`**; data dan lisensi ada di sana.
+Jika update otomatis gagal, unduh installer versi terbaru dan pasang di folder yang sama.
+**Jangan menghapus `.data`**; data dan lisensi ada di sana.
 
-## Lisensi
+## Pertanyaan yang sering diajukan
 
-Aplikasi memerlukan kunci lisensi yang terikat ke kode mesin. Kirim **Kode mesin**
-yang tampil di halaman Aktivasi ke pemilik aplikasi untuk mendapatkan kunci. Lisensi
-memiliki tanggal kedaluwarsa; perpanjangan diterbitkan dengan kode mesin yang sama.
+**Apakah data kandidat dikirim ke cloud?**
+Tidak. Database, CV, dan riwayat tersimpan di folder aplikasi. Hanya fitur AI opsional yang
+mengirim potongan teks ke Gemini, dan Admin bisa mematikannya.
 
-Kunci trial universal hanya untuk uji coba dan tidak mengunci fitur.
+**Apakah harus selalu online?**
+Tidak. Internet dibutuhkan saat setup pertama dan saat memakai AI. Fitur inti berjalan
+offline.
+
+**Bisa dipakai beberapa orang sekaligus?**
+Bisa. Setiap orang punya akun dengan peran sendiri, dan mode LAN membuka aplikasi untuk
+komputer lain di jaringan kantor.
+
+**Bagaimana kalau komputer rusak?**
+Pulihkan dari backup `.age` terbaru. Backup berisi database, CV, dan pengaturan; kata sandi
+hanya Anda yang pegang.
+
+**Apakah lisensi bisa dipindah ke komputer baru?**
+Bisa. Lisensi terikat kode mesin, jadi minta penerbitan ulang untuk komputer baru.
+
+**Apakah installer ini resmi?**
+Ya, berkas diunduh dari repositori rilis ini. Installer belum ditandatangani digital, jadi
+Windows SmartScreen bisa menampilkan peringatan. Pilih **More info → Run anyway** hanya jika
+berkas berasal dari halaman ini.
 
 ## Bantuan
 
 - Port dipakai aplikasi lain: tutup aplikasi tersebut lalu jalankan lagi.
 - Antivirus memblokir: izinkan folder aplikasi dan Node.js.
-- SmartScreen menampilkan peringatan: installer belum ditandatangani secara digital.
-  Pilih **More info**, lalu **Run anyway** hanya jika berkas diunduh dari repositori ini.
-- Masalah lain: kirim log terbaru dari `.data/logs` dan salinan diagnostik dari
-  halaman error kepada pemilik aplikasi.
+- Masalah lain: kirim log terbaru dari `.data/logs` dan salinan diagnostik dari halaman error.
+
+---
+
+<div align="center">
+
+**Rekrut Lokal** · dibuat untuk tim rekrutmen yang ingin datanya tetap di tangan sendiri.
 
 Copyright (c) 2026 LiHenZ. Hak cipta dilindungi.
+
+</div>
