@@ -11,6 +11,7 @@ Data tetap milik Anda. Tidak ada langganan per pengguna. Tetap jalan tanpa inter
 
 [![Unduh](https://img.shields.io/badge/Unduh-Installer_Windows-bb371e?style=for-the-badge)](../../releases/latest)
 [![Trial](https://img.shields.io/badge/Coba_gratis-7_hari-191919?style=for-the-badge)](#coba-gratis-7-hari)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_dengan_kami-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6285111870462?text=Halo%2C%20saya%20ingin%20tanya%20Rekrut%20Lokal)
 [![Versi](https://img.shields.io/badge/Versi-0.2.3-f5f5f4?style=for-the-badge&labelColor=191919)](#pembaruan-dan-rilis)
 
 </div>
@@ -89,9 +90,19 @@ Rekrut Lokal mengambil arah sebaliknya:
 - **Coba gratis 7 hari** — tanpa kartu kredit, tanpa komitmen.
 - Kebutuhan lebih dari 3 instalasi atau dukungan khusus: minta penawaran.
 
-Harga dapat berubah; penawaran yang berlaku dikonfirmasi saat pembelian. Hubungi pemilik
-aplikasi melalui [profil GitHub](https://github.com/lihenzar-wq) untuk demo, penawaran
-resmi, atau migrasi dari spreadsheet.
+Harga dapat berubah; penawaran yang berlaku dikonfirmasi saat pembelian.
+
+**Cara membeli atau minta demo:**
+
+1. Chat WhatsApp Business
+   **[+62 851-1187-0462](https://wa.me/6285111870462?text=Halo%2C%20saya%20ingin%20tanya%20Rekrut%20Lokal)**
+   atau kirim email ke
+   **[lihenzar@gmail.com](mailto:lihenzar@gmail.com?subject=Tanya%20Rekrut%20Lokal)**.
+2. Sebutkan jumlah instalasi dan kebutuhan tim Anda.
+3. Kami kirim penawaran resmi; kunci lisensi diterbitkan setelah pembayaran dikonfirmasi.
+
+Balasan dalam **1 hari kerja**. Untuk demo atau migrasi dari spreadsheet, tulis di pesan
+pertama.
 
 ## Coba gratis 7 hari
 
